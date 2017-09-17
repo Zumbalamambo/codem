@@ -1,2 +1,2 @@
-this is a android project transplanted the tensorflow DL model facenet.pb to android platform so that faces could be recognized on a android device.
-This project is based on the offical tensorflow demo who teaches developers to develop ML applications on android.besides
+this is a android project transplanted from the tensorflow DL model facenet.pb to android platform so that faces could be recognized on a android device.
+This project is based on the offical tensorflow demo who teaches developers to develop ML applications on android.
