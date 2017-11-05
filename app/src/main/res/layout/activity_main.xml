@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.tensorflow.demo.MainActivity">
+    <Button
+        android:onClick="input"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3377aa"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:text="从图库录入信息"/>
+    <Button
+        android:onClick="output_photo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3377aa"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:text="从图库检测人脸"/>
+    <Button
+        android:onClick="output_camera"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3377aa"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:text="摄像头检测人脸"/>
+</LinearLayout>
